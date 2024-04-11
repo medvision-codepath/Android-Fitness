@@ -8,6 +8,82 @@
 1. [Product Spec](#Product-Spec)
 1. [Wireframes](#Wireframes)
 
+### Team Members
+- Angel (Pikachu)
+- Brandon
+- Magfur
+- Erik
+
+## Brainstorm
+
+### Brandon
+- Gym Routine Tracking App
+- Medication Tracking App
+- Diet Tracking App
+
+#### Magfur
+-
+-
+-
+
+#### Erik
+- Online Group Chatting
+- Running app
+- Weather app
+
+#### Angel L Garcia
+- 4chan android client
+- Shitpost app
+- Trolley Location System
+
+
+## 2.1 TOP THREE
+- Gym Routine Tracking App
+- Trolley Location System
+- Online Group Chatting
+
+
+## 2.2 Evaluating Ideas
+
+#### Online Group Chatting
+- Mobile
+    - Quick and easy communication 
+    - Video Call communication, Voice Call, Real-time Messaging
+- Story
+    - Very clear for communication with others
+    - Will be helpful for group communication as well
+- Market
+    - The Potential user base would be anyone with a phone looking to find a way to communicate with others
+    - This would be a free app so anyone is able to download and access the app
+- Habit
+    - Users would use this app daily to access DMs from others
+    - They are able to both create group chats and new messages with other users
+- Scope
+    - This would be a good challenged to complete the app
+    - We need to be able to create logins for each user and store that into a database to saver their info and messages
+
+
+### Gym Routine Tracking App
+- Mobile
+- Story
+- Market
+- Habit
+- Scope
+
+
+### Trolley Location App
+- Mobile
+- Story
+- Market
+- Habit
+- Scope
+
+
+## 2.3 Winner:
+
+#### Gym Routine Tracking App
+
+
 ## Overview
 
 ### Description
