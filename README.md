@@ -90,9 +90,12 @@
 
 Fitness app where you can track your workout and build better health habits 💖
 
+Users can keep track of their workout at a very granular level, and even track their progress as they strengthen 
+different muscles of their body 💪
+
 ### App Evaluation
 
-- **Category:** *Fitness*
+- **Category:** *Health and Fitness*
 - **Mobile:** ??
 - **Story:** ??
 - **Market:** ??
@@ -130,13 +133,14 @@ Fitness app where you can track your workout and build better health habits 💖
 **Optional Features**
 
 1. When you do an extra rep/weight/distance you get a trophie and confetti 🥳
-2. The ability to make comments on certain excersises (Mood during excersise)
-3. Log that tracks when you start excersing and stop time
-4. Record of the best/highest performance in excersise
-5. Connect to a smartwatch to track fitness progress
-   - Use Voice Assistant to record new excersises or retrieve relevant information
-   - We can do this via the Google Assistance 🤔
-
+2. The ability to make comments on certain excersises (Mood during excersise) 💬
+3. 📓 Log that tracks when you start excersing and stop time
+4. 🏆 Record of the best/highest performance in excersise
+5. ⌚ Connect to a smartwatch to track fitness progress
+   - 🤖 Use Voice Assistant to record new excersises or retrieve relevant information
+   - 🤔 We can do this via the Google Assistance
+6. Notifications that reminds users to start working out!
+7. A Calendar where users can see their past progress 📅
 ### 2. Screen Archetypes
 
 - [list first screen here]
