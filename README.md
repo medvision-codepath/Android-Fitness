@@ -72,17 +72,15 @@
 
 
 ### Trolley Location App
-- Mobile
-- Story
-- Market
-- Habit
-- Scope
-
+- Mobile: The app interfaces with a ESP32 chip that supports LoRa and is also connected to a GPS and shows the location of each ESP32 node. Each of these nodes would be inside a trolley, which will send their respective information via wifi to a station Node. In this case, the app simply maps out the locations and shows it in a Google Maps.
+- Story: Help users know the location of their local trolley and the approximate time these trolleys will arrive to their respetive stations without the need of a complex or costly infrastructure using IoT technology
+- Market: In Puerto Rico there is an ever-growing situation in public transportation. Although essential, faces reliability challenges that generate frustration and abandonment by users due to delays and unforeseen events.To mitigate this situation, we can use IoT technology paired with our phones where users can know when and where the trolley is and plan out their traveling better.
+- Habit: Occationally, only when communing public transportation
+- Scope: Will allow users to access the IoT devices' location and see the trolley's route in real-time
 
 ## 2.3 Winner:
 
 #### Gym Routine Tracking App
-
 
 ## Overview
 
@@ -129,6 +127,7 @@ different muscles of their body 💪
 5. Goals the user can set up for new excersises
 - Include some kind of progress bar (leveling system)
   -   Default is every week, but the goal of how often the goal is met is determined by the user
+6. Export all fitness data as a json data file and share it via an endpoint (if possible)
 
 **Optional Features**
 
