@@ -166,19 +166,12 @@ Try to focus first on the fitness tracking app and then focus on the stretch fea
 ### 2. Screen Archetypes
 
 - Home Screen
-  - [list associated required story here]
 - Progress Tracking Screen
-  - [list associated required story here]
 - Exercises Screen
-  - [list associated required story here]
 - Routines Screen
-  - [list associated required story here]
 - Calendar Screen
-  - [list associated required story here]
 - Body Tracker Screen
-  - [list associated required story here]
 - Settings Screen
-  - [list associated required story here]
 
 ### 3. Navigation
 
