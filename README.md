@@ -132,20 +132,10 @@ different muscles of their body 💪
   - The unit of said excersises
 3. [R3] The ability to log different weights and reps
 4. [R4] The ability to view previous excersises, weights and reps
-  - By Date
+  - By Date (Requires S9)
     - Weekly
     - Daily
-5. [R5] Analytics of said excersises, weights and reps
-- Total amount of weight throught the day
-- Cummulative Progress
-- Average amounts of reps/weight/distance
-- Fav excersise
-- What muscle group you are working out most of the time
-- Pie chart of all the mussle groups you're working in total
-6. [R6] Goals the user can set up for new excersises
-- Include some kind of progress bar (leveling system)
-  -   Default is every week, but the goal of how often the goal is met is determined by the user
-7. [R7] A Calendar where users can see their past progress 📅
+
 
 **Optional Features**
 
@@ -159,6 +149,22 @@ different muscles of their body 💪
    - 🤔 We can do this via the Google Assistance
 7. [S7] Notifications that reminds users to start working out! 🤳
 8. [S8] Export all fitness data as a json data file and share it via an endpoint (if possible) 💻
+
+### Note: These will pass to required once we have the core mechanics
+
+9. [S9] Analytics of said excersises, weights and reps
+- Total amount of weight throught the day
+- Cummulative Progress
+- Average amounts of reps/weight/distance
+- Fav excersise
+- What muscle group you are working out most of the time
+- Pie chart of all the muscle groups you're working in total
+10. [S10] Goals the user can set up for new excersises
+- Include some kind of progress bar (leveling system)
+  -   Default is every week, but the goal of how often the goal is met is determined by the user
+11. [S11] A Calendar where users can see their past progress 📅
+
+(insert Baki meme here :v ) can't find a good one 😔
 
 #### Suggestions by TF
 
