@@ -22,9 +22,7 @@
 - Diet Tracking App
 
 #### Magfur
--
--
--
+- Gym App
 
 #### Erik
 - Online Group Chatting
@@ -65,10 +63,19 @@
 
 ### Gym Routine Tracking App
 - Mobile
+    - Convenient for Progress tracking over a notebook
+    - Can keep large volumes of data points spanning multiple time points with high fidelity
 - Story
+    - Good for fitness tracking and progress over time
+    - helpful for integration into a a larger medical platform for holistic data analytics
 - Market
+    - Gym goers and anyone interested in tracking their health over time
+    - $2 for anyone to download and utilize for robust fitness tracking
 - Habit
+    - Users would use this app daily for progress tracking
 - Scope
+    - The app makes use of all the concepts that we have learned int eh android class thus far
+    - the app would mainly be intaking user data and keeping it persistent on device. 
 
 
 ### Trolley Location App
@@ -94,11 +101,20 @@ different muscles of their body 💪
 ### App Evaluation
 
 - **Category:** *Health and Fitness*
-- **Mobile:** ??
-- **Story:** ??
-- **Market:** ??
-- **Habit:** Daily
-- **Scope:** ??
+- **Mobile**:
+    - Convenient for Progress tracking over a notebook
+    - Can keep large volumes of data points spanning multiple time points with high fidelity
+- **Story**:
+    - Good for fitness tracking and progress over time
+    - helpful for integration into a a larger medical platform for holistic data analytics
+- **Market**:
+    - Gym goers and anyone interested in tracking their health over time
+    - $2 for anyone to download and utilize for robust fitness tracking
+- **Habit**:
+    - Users would use this app daily for progress tracking
+- **Scope**:
+    - The app makes use of all the concepts that we have learned int eh android class thus far
+    - the app would mainly be intaking user data and keeping it persistent on device. 
 
 ## Product Spec
 
@@ -106,62 +122,111 @@ different muscles of their body 💪
 
 **Required Features**
 
-1. The ability to log new excersises
+1. [R1] App must work **Offline**
+2. [R2] The ability to log new excersises
   - The muscle to which the excersises is dedicated to
   - The name of the excersises
   - The excersises type
     - Weight or Distance or Reps or a combination of these
   - The unit of said excersises
-2. The ability to log different weights and reps
-3. The ability to view previous excersises, weights and reps
+3. [R3] The ability to log different weights and reps
+4. [R4] The ability to view previous excersises, weights and reps
   - By Date
     - Weekly
     - Daily
-4. Analytics of said excersises, weights and reps
+5. [R5] Analytics of said excersises, weights and reps
 - Total amount of weight throught the day
 - Cummulative Progress
 - Average amounts of reps/weight/distance
 - Fav excersise
 - What muscle group you are working out most of the time
 - Pie chart of all the mussle groups you're working in total
-5. Goals the user can set up for new excersises
+6. [R6] Goals the user can set up for new excersises
 - Include some kind of progress bar (leveling system)
   -   Default is every week, but the goal of how often the goal is met is determined by the user
-6. Export all fitness data as a json data file and share it via an endpoint (if possible)
+7. [R7] A Calendar where users can see their past progress 📅
 
 **Optional Features**
 
-1. When you do an extra rep/weight/distance you get a trophie and confetti 🥳
-2. The ability to make comments on certain excersises (Mood during excersise) 💬
-3. 📓 Log that tracks when you start excersing and stop time
-4. 🏆 Record of the best/highest performance in excersise
-5. ⌚ Connect to a smartwatch to track fitness progress
+1. [S1] Loading Screen!
+2. [S2] When you do an extra rep/weight/distance you get a trophie and confetti 🥳
+3. [S3] The ability to make comments on certain excersises (Mood during excersise) 💬
+4. [S4] Log that tracks when you start excersing and stop time 📓
+5. [S5] Record of the best/highest performance in excersise 🏆
+6. [S6] Connect to a smartwatch to track fitness progress ⌚
    - 🤖 Use Voice Assistant to record new excersises or retrieve relevant information
    - 🤔 We can do this via the Google Assistance
-6. Notifications that reminds users to start working out!
-7. A Calendar where users can see their past progress 📅
+7. [S7] Notifications that reminds users to start working out! 🤳
+8. [S8] Export all fitness data as a json data file and share it via an endpoint (if possible) 💻
+
+#### Suggestions by TF
+
+Try to focus first on the fitness tracking app and then focus on the stretch features for your more complex idea of what the app would become.
+
 ### 2. Screen Archetypes
 
-- [list first screen here]
+- Home Screen
   - [list associated required story here]
-  - ...
-- [list second screen here]
+- Progress Tracking Screen
   - [list associated required story here]
-  - ...
+- Exercises Screen
+  - [list associated required story here]
+- Routines Screen
+  - [list associated required story here]
+- Calendar Screen
+  - [list associated required story here]
+- Body Tracker Screen
+  - [list associated required story here]
+- Settings Screen
+  - [list associated required story here]
 
 ### 3. Navigation
 
 **Tab Navigation** (Tab to Screen)
 
-* [fill out your first tab]
-* [fill out your second tab]
-* [fill out your third tab]
+* Track
+* History
+* Graph
 
 **Flow Navigation** (Screen to Screen)
 
-- [list first screen here]
-  - [list screen navigation here]
-  - ...
-- [list second screen here]
-  - [list screen navigation here]
-  - ...
+- [R1] Home Screen
+  - Plus button at top allow us to go to Routines screen
+  - Calendar Icon at top allows us to go to calendar screen
+  - Ellipse icon at top  then shows popup memu and allows us 
+    to go to Settings screen, body tracker screen, and             Progress Tracking Screen
+  - [Optional] swiping right closes the app
+- [S1] Splash Screen
+    - Displays app logo while app loads
+- [R6] Progress Tracking Screen
+  - ⚙️ Gear icon allows us to go to the settings screen
+  - 4 smaller tabs within this screen: workouts, breakdown, exercises, and goals
+  - Must click on back arrow to go back to Home Screen
+  - [Optional] Swiping right takes us to the home screen
+- [R2, R3] Exercises Screen
+  - Pressing the Back button or checking the Check Mark button would take us to Routines screen
+  - [Optional] swiping right takes us to the home screem
+- [R4] Routines Screen
+  - ✏️ Pencil icon allows us to edit routines and then plus icon on routines would take use to exercises screen
+  - Pressing log all on a perticular routine woudl take us back to home screen with the screen now populated with the routine.
+- [R7] 📅 Calendar Screen
+    - To access this screen click the 📅 icon on the top of the screen. This icon will be present on all screens with the exception of the Settings Screen.
+  - Pressing on a particular date would take us to the home screen registered at that particular date (New item is added).
+  - Pressing the logo pops out a menu that allows for calendar filtering based on muscle group. 
+  - [Optional] swiping right takes us to the home screen
+- Body Tracker Screen
+  - Three smaller tabs: Track, History, and Graph 
+  - [Optional] swiping right takes us to the home screen
+- [R_ALL] Settings Screen
+    - Allows the user to change:
+        - Unit System
+        - Option to clear data
+        - Default weight Increment
+    - Shows an About view
+    - Help
+    - About
+  - [Optional] swiping right takes us to the home screen
+
+## Wireframes
+
+[Add picture of your hand sketched wireframes in this section] <img src="wireframe-by-erik-perez" width=600>
