@@ -11,7 +11,7 @@ import android.widget.TextView
 import androidx.fragment.app.Fragment
 import com.example.android_fitness.R
 
-class ExerciseFragment : Fragment() {
+class ExercisesFragment : Fragment() {
 
     private lateinit var timerText: TextView
     private lateinit var startButton: Button

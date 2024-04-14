@@ -1,6 +1,43 @@
 <?xml version="1.0" encoding="utf-8"?>
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:id="@+id/nav_graph">
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph.xml"
+    app:startDestination="@id/mainFragment">
 
+    <fragment
+        android:id="@+id/bodyTrackerFragment"
+        android:name="com.example.android_fitness.app.BodyTrackerFragment"
+        android:label="main_fragment"
+        tools:layout="@layout/fragment_body_tracker" />
+
+    <fragment
+        android:id="@+id/calendarFragment"
+        android:name="com.example.android_fitness.app.CalendarFragment"
+        android:label="dashboard_fragment"
+        tools:layout="@layout/fragment_calendar" />
+
+    <fragment
+        android:id="@+id/exercisesFragment"
+        android:name="com.example.android_fitness.app.ExercisesFragment"
+        android:label="dashboard_fragment"
+        tools:layout="@layout/fragment_exercises" />
+
+    <fragment
+        android:id="@+id/progressTrackingFragment"
+        android:name="com.example.android_fitness.app.ProgressTrackingFragment"
+        android:label="dashboard_fragment"
+        tools:layout="@layout/fragment_progress_tracking" />
+
+    <fragment
+        android:id="@+id/routinesFragment"
+        android:name="com.example.android_fitness.app.RoutinesFragment"
+        android:label="dashboard_fragment"
+        tools:layout="@layout/fragment_routines" />
+
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.example.android_fitness.app.SettingsFragment"
+        android:label="dashboard_fragment"
+        tools:layout="@xml/preferences_settings" />
 </navigation>
