@@ -6,6 +6,8 @@
     <string name="cancel">Cancel</string>
     <string name="home">Home</string>
     <string name="dashboard">Dashboard</string>
+    <string name="date">Date</string>
+    <string name="amount">Amount</string>
 
     <string-array name="pref_sync_frequency_titles">
         <item>5 minutes</item>

@@ -6,6 +6,11 @@
     app:startDestination="@id/mainFragment">
 
     <fragment
+        android:id="@+id/mainFragment"
+        android:name="com.example.android_fitness.app.MainFragment"
+        android:label="main_fragment"
+        tools:layout="@layout/fragment_main"/>
+    <fragment
         android:id="@+id/bodyTrackerFragment"
         android:name="com.example.android_fitness.app.BodyTrackerFragment"
         android:label="main_fragment"
