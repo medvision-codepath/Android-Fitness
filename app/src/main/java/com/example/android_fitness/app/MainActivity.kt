@@ -19,12 +19,12 @@ class MainActivity : AppCompatActivity() {
 
         if (savedInstanceState == null) {
             supportFragmentManager.beginTransaction()
-                .replace(R.id.fragment_container, SettingsFragment())
+                .replace(R.id.nav_host_fragment, SettingsFragment())
                 .commit()
         }
 
         // Check that the activity is using the layout version with the fragment container
-        if (findViewById<FrameLayout>(R.id.fragment_container) != null) {
+        if (findViewById<FrameLayout>(R.id.nav_host_fragment) != null) {
             // However, if we're being restored from a previous state,
             // then we don't need to do anything and should return or else
             // we could end up with overlapping fragments.
@@ -37,7 +37,7 @@ class MainActivity : AppCompatActivity() {
 
             // Add the fragment to the 'fragment_container' FrameLayout
             supportFragmentManager.beginTransaction()
-                .add(R.id.fragment_container, firstFragment).commit()
+                .add(R.id.nav_host_fragment, firstFragment).commit()
         }
     }
 

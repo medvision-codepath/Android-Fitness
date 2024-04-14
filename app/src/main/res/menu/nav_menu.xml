@@ -3,26 +3,26 @@
     <item
         android:id="@+id/mainFragment"
         android:icon="@drawable/ic_home"
-        android:title="Home"/>
+        android:title="@string/home"/>
     <item
         android:id="@+id/bodyTrackerFragment"
         android:icon="@drawable/ic_home"
-        android:title="BodyTracker"/>
+        android:title="@string/bodyTracker"/>
     <item
         android:id="@+id/calendarFragment"
         android:icon="@drawable/ic_home"
-        android:title="Calendar"/>
+        android:title="@string/calendar"/>
     <item
         android:id="@+id/exercisesFragment"
         android:icon="@drawable/ic_home"
-        android:title="Exercises"/>
+        android:title="@string/exercises"/>
     <item
         android:id="@+id/progressTrackingFragment"
         android:icon="@drawable/ic_home"
-        android:title="ProgressTracking"/>
+        android:title="@string/progressTracking"/>
     <item
         android:id="@+id/settingsFragment"
         android:icon="@drawable/ic_home"
-        android:title="Settings"/>
+        android:title="@string/settings"/>
 
 </menu>
