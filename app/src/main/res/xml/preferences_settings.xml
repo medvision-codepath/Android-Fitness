@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <EditTextPreference
+        android:key="signature"
+        android:title="Signature"
+        android:summary="Edit your email signature."
+        android:dialogTitle="Edit Signature" />
+
+    <SwitchPreferenceCompat
+        android:key="notifications"
+        android:title="Enable Notifications"
+        android:summary="Turn notifications on or off." />
+
+    <ListPreference
+        android:key="sync_frequency"
+        android:title="Sync Frequency"
+        android:summary="Choose how frequently to sync data."
+        android:dialogTitle="Select Sync Frequency"
+        android:entries="@array/pref_sync_frequency_titles"
+        android:entryValues="@array/pref_sync_frequency_values"
+        android:defaultValue="15" />
+
+</PreferenceScreen>

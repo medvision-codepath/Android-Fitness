@@ -1,3 +1,23 @@
 <resources>
     <string name="app_name">Android-Fitness</string>
+
+    <string name="add_new_entry">Add New Entry</string> <!-- Use this for the FAB's contentDescription -->
+    <string name="submit">Submit</string>
+    <string name="cancel">Cancel</string>
+    <string name="home">Home</string>
+    <string name="dashboard">Dashboard</string>
+
+    <string-array name="pref_sync_frequency_titles">
+        <item>5 minutes</item>
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+    </string-array>
+
+    <string-array name="pref_sync_frequency_values">
+        <item>5</item>
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+    </string-array>
 </resources>
