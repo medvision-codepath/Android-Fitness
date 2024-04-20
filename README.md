@@ -265,6 +265,10 @@ Try to focus first on the fitness tracking app and then focus on the stretch fea
 
 # Milestone 3 - Build Sprint 2 (Unit 9)
 
+## Tool we used to record demo:
+**[Loom](https://www.loom.com/)**
+
+
 ## GitHub Project board
 
 [Add screenshot of your Project Board with the updated status of issues for Milestone 3. Note that these should include the updated issues you worked on for this sprint and not be a duplicate of Milestone 2 Project board.] <img src="YOUR_WIREFRAME_IMAGE_URL" width=600>
