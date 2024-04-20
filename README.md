@@ -250,11 +250,12 @@ Try to focus first on the fitness tracking app and then focus on the stretch fea
 
 ![Project Board with the issues that is being worked on in the **NEXT sprint**. It should include issues for next unit with assigned owners.](https://github.com/medvision-codepath/Android-Fitness/assets/47986470/d28eae0b-d854-4bf2-85f2-f4c9cda43b11)
 
+![image](https://github.com/medvision-codepath/Android-Fitness/assets/47986470/80f08a31-7d27-455d-ab19-78c893d5b3ee)
+
 
 ## Issues worked on this sprint
 
-- List the issues you completed this sprint
-- [Add giphy that shows current build progress for Milestone 2. Note: We will be looking for progression of work between Milestone 2 and 3. Make sure your giphys are not duplicated and clearly show the change from Sprint 1 to 2.]
+![image](https://github.com/medvision-codepath/Android-Fitness/assets/47986470/a476ad25-78cc-4948-96e1-ba2e397a6851)
 
 <br>
 
