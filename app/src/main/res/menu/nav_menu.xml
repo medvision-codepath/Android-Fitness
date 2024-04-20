@@ -1,28 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
+
     <item
-        android:id="@+id/mainFragment"
-        android:icon="@drawable/ic_home"
-        android:title="@string/home"/>
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="@string/title_home" />
+
     <item
-        android:id="@+id/bodyTrackerFragment"
-        android:icon="@drawable/ic_home"
-        android:title="@string/bodyTracker"/>
+        android:id="@+id/navigation_dashboard"
+        android:icon="@drawable/ic_dashboard_black_24dp"
+        android:title="@string/title_dashboard" />
+
     <item
-        android:id="@+id/calendarFragment"
-        android:icon="@drawable/ic_home"
-        android:title="@string/calendar"/>
-    <item
-        android:id="@+id/exercisesFragment"
-        android:icon="@drawable/ic_home"
-        android:title="@string/exercises"/>
-    <item
-        android:id="@+id/progressTrackingFragment"
-        android:icon="@drawable/ic_home"
-        android:title="@string/progressTracking"/>
-    <item
-        android:id="@+id/settingsFragment"
-        android:icon="@drawable/ic_home"
-        android:title="@string/settings"/>
+        android:id="@+id/navigation_notifications"
+        android:icon="@drawable/ic_notifications_black_24dp"
+        android:title="@string/title_notifications" />
 
 </menu>

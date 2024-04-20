@@ -1,6 +1,8 @@
 <resources>
     <string name="app_name">Android-Fitness</string>
-
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
     <string name="add_new_entry">Add New Entry</string> <!-- Use this for the FAB's contentDescription -->
     <string name="addRoutine">Add Routine</string>
     <string name="start">Start</string>

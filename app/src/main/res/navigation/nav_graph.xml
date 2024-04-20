@@ -2,47 +2,24 @@
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/nav_graph.xml"
-    app:startDestination="@id/mainFragment">
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
 
     <fragment
-        android:id="@+id/mainFragment"
-        android:name="com.example.android_fitness.app.MainFragment"
-        android:label="main_fragment"
-        tools:layout="@layout/fragment_main"/>
-    <fragment
-        android:id="@+id/bodyTrackerFragment"
-        android:name="com.example.android_fitness.app.BodyTrackerFragment"
-        android:label="main_fragment"
-        tools:layout="@layout/fragment_body_tracker" />
+        android:id="@+id/navigation_home"
+        android:name="com.example.testing.ui.home.HomeFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_home" />
 
     <fragment
-        android:id="@+id/calendarFragment"
-        android:name="com.example.android_fitness.app.CalendarFragment"
-        android:label="dashboard_fragment"
-        tools:layout="@layout/fragment_calendar" />
+        android:id="@+id/navigation_dashboard"
+        android:name="com.example.testing.ui.dashboard.DashboardFragment"
+        android:label="@string/title_dashboard"
+        tools:layout="@layout/fragment_dashboard" />
 
     <fragment
-        android:id="@+id/exercisesFragment"
-        android:name="com.example.android_fitness.app.ExercisesFragment"
-        android:label="dashboard_fragment"
-        tools:layout="@layout/fragment_exercises" />
-
-    <fragment
-        android:id="@+id/progressTrackingFragment"
-        android:name="com.example.android_fitness.app.ProgressTrackingFragment"
-        android:label="dashboard_fragment"
-        tools:layout="@layout/fragment_progress_tracking" />
-
-    <fragment
-        android:id="@+id/routinesFragment"
-        android:name="com.example.android_fitness.app.RoutinesFragment"
-        android:label="dashboard_fragment"
-        tools:layout="@layout/fragment_routines" />
-
-    <fragment
-        android:id="@+id/settingsFragment"
-        android:name="com.example.android_fitness.app.SettingsFragment"
-        android:label="dashboard_fragment"
-        tools:layout="@xml/preferences_settings" />
+        android:id="@+id/navigation_notifications"
+        android:name="com.example.testing.ui.notifications.NotificationsFragment"
+        android:label="@string/title_notifications"
+        tools:layout="@layout/fragment_notifications" />
 </navigation>
