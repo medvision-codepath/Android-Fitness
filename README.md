@@ -242,21 +242,26 @@ Try to focus first on the fitness tracking app and then focus on the stretch fea
 
 ## GitHub Project board
 
-[Add screenshot of your Project Board with three milestones visible in
-this section]
-<img src="YOUR_WIREFRAME_IMAGE_URL" width=600>
+![image](https://github.com/medvision-codepath/Android-Fitness/assets/47986470/79283237-bc36-4b90-847e-f5db84c7dadf)
 
 ## Issue cards
 
-- [Add screenshot of your Project Board with the issues that you've been working on for this unit's milestone] <img src="YOUR_WIREFRAME_IMAGE_URL" width=600>
-- [Add screenshot of your Project Board with the issues that you're working on in the **NEXT sprint**. It should include issues for next unit with assigned owners.] <img src="YOUR_WIREFRAME_IMAGE_URL" width=600>
+![screenshot of your Project Board with the issues that you've been working on for this unit's milestone](https://github.com/medvision-codepath/Android-Fitness/assets/47986470/89469e5b-f1ff-4be0-98ec-d52467b01533)
+
+![Project Board with the issues that is being worked on in the **NEXT sprint**. It should include issues for next unit with assigned owners.](https://github.com/medvision-codepath/Android-Fitness/assets/47986470/d28eae0b-d854-4bf2-85f2-f4c9cda43b11)
+
+![image](https://github.com/medvision-codepath/Android-Fitness/assets/47986470/80f08a31-7d27-455d-ab19-78c893d5b3ee)
+
 
 ## Issues worked on this sprint
 
-- List the issues you completed this sprint
-- [Add giphy that shows current build progress for Milestone 2. Note: We will be looking for progression of work between Milestone 2 and 3. Make sure your giphys are not duplicated and clearly show the change from Sprint 1 to 2.]
+![image](https://github.com/medvision-codepath/Android-Fitness/assets/47986470/a476ad25-78cc-4948-96e1-ba2e397a6851)
 
 <br>
+
+
+
+<img src='https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExNmllMTYyNzQ3cmU1NTByMGFjbHd3NWd3bWhjbjRwYWp3d2VvMGtmZiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/S13NeqEVh06zloLCVv/giphy.gif' title='Android Fitness' width='' alt='Android Fitness' />
 
 # Milestone 3 - Build Sprint 2 (Unit 9)
 
