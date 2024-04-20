@@ -259,6 +259,10 @@ Try to focus first on the fitness tracking app and then focus on the stretch fea
 
 <br>
 
+
+
+<img src='https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExNmllMTYyNzQ3cmU1NTByMGFjbHd3NWd3bWhjbjRwYWp3d2VvMGtmZiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/S13NeqEVh06zloLCVv/giphy.gif' title='Android Fitness' width='' alt='Android Fitness' />
+
 # Milestone 3 - Build Sprint 2 (Unit 9)
 
 ## GitHub Project board
