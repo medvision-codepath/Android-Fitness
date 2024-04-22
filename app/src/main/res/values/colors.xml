@@ -1,5 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+
+    <color name="fit_blue">#46C3B4</color>
+    <color name="fit_dark_blue">#3F3D56</color>
+    <color name="fit_white">#EBEBEB</color>
+    <color name="fit_light_grey">#DBE3E7</color>
+    <color name="fit_light_green">#276C4B</color>
+
+
     <color name="purple_200">#FFBB86FC</color>
     <color name="purple_500">#FF6200EE</color>
     <color name="purple_700">#FF3700B3</color>
