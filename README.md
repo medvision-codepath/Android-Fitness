@@ -285,4 +285,8 @@ Try to focus first on the fitness tracking app and then focus on the stretch fea
 
 ## App Demo Video
 
-- Embed the YouTube/Vimeo link of your Completed Demo Day prep video
+
+<a href="https://www.loom.com/share/67a63f72e8684d0b83970c8986967e63">
+    <img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/67a63f72e8684d0b83970c8986967e63-with-play.gif">
+</a>
+
