@@ -118,9 +118,9 @@
         android:contentDescription="@string/edit_fab_description"
         android:src="@drawable/baseline_edit_24"
         android:onClick="click"
-        app:backgroundTint="#673AB7"
+        app:backgroundTint="@color/fit_blue"
         app:elevation="6dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:tint="@color/white" />
+        app:tint="@color/light" />
 </androidx.constraintlayout.widget.ConstraintLayout>
