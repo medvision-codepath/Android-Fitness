@@ -25,6 +25,10 @@
     <string name="incrementProgress">Increment Progress</string>
     <string name="resetProgress">Reset Progress</string>
     <string name="timeCount">00:00:00</string>
+    <string name="about_content">About text goes here.</string>
+    <string name="privacy_policy_content">Privacy policy text goes here.</string>
+
+
 
     <string-array name="pref_sync_frequency_titles">
         <item>5 minutes</item>

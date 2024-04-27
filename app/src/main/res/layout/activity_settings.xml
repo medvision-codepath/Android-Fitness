@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="13dp"
+    android:padding="16dp">
+
+    <!-- About content -->
+    <TextView
+        android:id="@+id/textViewAbout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:onClick="onAboutClicked"
+        android:text="@string/about_content" />
+
+    <!-- Privacy Policy content -->
+    <TextView
+        android:id="@+id/textViewPrivacyPolicy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/privacy_policy_content"
+        android:clickable="true"
+        android:onClick="onPrivacyPolicyClicked"/>
+
+
+    <TextView
+        android:id="@+id/textViewFeedback"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:onClick="onFeedbackClicked"
+        android:text="Feedback" />
+
+
+    <TextView
+        android:id="@+id/textViewHelp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Help"
+        android:clickable="true"
+        android:onClick="onHelpClicked"/>
+
+    <TextView
+        android:id="@+id/textViewUnitSystem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Unit System"
+        android:clickable="true"
+        android:onClick="onUnitSystemClicked"/>
+
+    <TextView
+        android:id="@+id/textViewCalendarWeekStart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calendar Week Start"
+        android:clickable="true"
+        android:onClick="onCalendarWeekStartClicked"/>
+
+    <TextView
+        android:id="@+id/textViewIncrementWeight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Increment Weight"
+        android:clickable="true"
+        android:onClick="onIncrementWeightClicked"/>
+
+    <TextView
+        android:id="@+id/textViewTheme"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Theme"
+        android:clickable="true"
+        android:onClick="onThemeClicked"/>
+
+</LinearLayout>
