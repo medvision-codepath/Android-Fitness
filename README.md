@@ -260,27 +260,28 @@ Try to focus first on the fitness tracking app and then focus on the stretch fea
 <br>
 
 
-
 <img src='https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExNmllMTYyNzQ3cmU1NTByMGFjbHd3NWd3bWhjbjRwYWp3d2VvMGtmZiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/S13NeqEVh06zloLCVv/giphy.gif' title='Android Fitness' width='' alt='Android Fitness' />
 
 # Milestone 3 - Build Sprint 2 (Unit 9)
 
-## Tool we used to record demo:
-**[Loom](https://www.loom.com/)**
-
-
 ## GitHub Project board
 
-[Add screenshot of your Project Board with the updated status of issues for Milestone 3. Note that these should include the updated issues you worked on for this sprint and not be a duplicate of Milestone 2 Project board.] <img src="YOUR_WIREFRAME_IMAGE_URL" width=600>
+![image](https://github.com/medvision-codepath/Android-Fitness/assets/47986470/cd39f742-a29a-4115-97d8-f8ba2bf8c53c)
+
+![image](https://github.com/medvision-codepath/Android-Fitness/assets/47986470/2a29c032-540b-4f95-b19b-53856bc77803)
 
 ## Completed user stories
 
 - List the completed user stories from this unit
+  - Creating a Workout
+  - Editing a Workout
+  - Workout history
 - List any pending user stories / any user stories you decided to cut
-  from the original requirements
+  - Settings View
+  - Calendar View
+  - Body Tracker
 
-[Add video/gif of your current application that shows build progress]
-<img src="YOUR_WIREFRAME_IMAGE_URL" width=600>
+<img src="https://github.com/medvision-codepath/Android-Fitness/blob/master/Animation2.gif" height=600>
 
 ## App Demo Video
 
