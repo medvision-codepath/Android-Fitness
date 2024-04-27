@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/first_main_set_weight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="Weight 1"
+        android:textSize="16sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/first_main_set_reps"
+        app:layout_constraintEnd_toStartOf="@+id/first_main_set_reps"
+        app:layout_constraintHorizontal_bias="0.12"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/first_main_set_reps"
+        android:layout_width="25dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="48dp"
+        android:ems="10"
+        android:gravity="center_horizontal"
+        android:inputType="none|number"
+        android:maxLength="2"
+        android:text="5"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/confirm_reps_text" />
+
+    <TextView
+        android:id="@+id/second_main_set_weight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="Weight 2"
+        android:textSize="16sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/second_main_set_reps"
+        app:layout_constraintEnd_toStartOf="@+id/second_main_set_reps"
+        app:layout_constraintHorizontal_bias="0.12"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/second_main_set_reps"
+        android:layout_width="25dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:gravity="center_horizontal"
+        android:inputType="none|number"
+        android:maxLength="2"
+        android:text="5"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="@+id/first_main_set_reps"
+        app:layout_constraintStart_toStartOf="@+id/first_main_set_reps"
+        app:layout_constraintTop_toBottomOf="@+id/first_main_set_reps" />
+
+    <TextView
+        android:id="@+id/third_main_set_weight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="6dp"
+        android:text="Weight 3"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="@+id/third_main_set_reps"
+        app:layout_constraintEnd_toStartOf="@+id/third_main_set_reps"
+        app:layout_constraintHorizontal_bias="0.12"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/third_main_set_reps"
+        android:layout_width="25dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:gravity="center_horizontal"
+        android:inputType="none|number"
+        android:maxLength="2"
+        android:text="5"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="@+id/second_main_set_reps"
+        app:layout_constraintStart_toStartOf="@+id/second_main_set_reps"
+        app:layout_constraintTop_toBottomOf="@+id/second_main_set_reps" />
+
+    <TextView
+        android:id="@+id/confirm_reps_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        android:text="How many reps did you do?"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/save_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Save"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/third_main_set_reps" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

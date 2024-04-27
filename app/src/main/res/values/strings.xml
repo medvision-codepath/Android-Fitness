@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">GymApp</string>
+    <string name="title_home">Home</string>
+    <string name="title_history">History</string>
+    <string name="title_settings">Settings</string>
+    <string name="title_training_max">Training Max</string>
+    <string name="training_max_description">Your Training Max should be 80–90% of your true 1 Rep Max.</string>
+    <string name="edit_training_max">Edit Training Maxes</string>
+    <string name="edit_fab_description">Edit floating action button</string>
+    <string name="weight_format_text">%1$.1f kg</string>
+    <string name="record_amrap_text">Record AMRAP</string>
+    <string name="finish_workout_text">Finish Workout</string>
+</resources>

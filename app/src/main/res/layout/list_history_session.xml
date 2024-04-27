@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/workout_type_week_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            app:layout_constraintStart_toStartOf="@+id/date"
+            app:layout_constraintTop_toBottomOf="@+id/date" />
+
+        <TextView
+            android:id="@+id/training_max"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            app:layout_constraintStart_toStartOf="@+id/workout_type_week_count"
+            app:layout_constraintTop_toBottomOf="@+id/workout_type_week_count" />
+
+        <View
+            android:id="@+id/line_view"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#c0c0c0"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/training_max" />
+
+        <TextView
+            android:id="@+id/set_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Set 1"
+            android:textSize="18sp"
+            app:layout_constraintStart_toStartOf="@+id/training_max"
+            app:layout_constraintTop_toBottomOf="@+id/line_view" />
+
+        <TextView
+            android:id="@+id/set_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Set 2"
+            android:textSize="18sp"
+            app:layout_constraintStart_toStartOf="@+id/set_1"
+            app:layout_constraintTop_toBottomOf="@+id/set_1" />
+
+        <TextView
+            android:id="@+id/set_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:text="Set 3"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/set_2"
+            app:layout_constraintTop_toBottomOf="@+id/set_2" />
+
+        <TextView
+            android:id="@+id/set_1_details"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="32dp"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/line_view" />
+
+        <TextView
+            android:id="@+id/set_2_details"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="@+id/set_1_details"
+            app:layout_constraintTop_toBottomOf="@+id/set_1_details" />
+
+        <TextView
+            android:id="@+id/set_3_details"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="@+id/set_2_details"
+            app:layout_constraintTop_toBottomOf="@+id/set_2_details" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>
