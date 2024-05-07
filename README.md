@@ -11,7 +11,7 @@
 ### Team Members
 - Angel (Pikachu)
 - Brandon
-- Magfur
+- [Magfur Jafory](https://github.com/mjafory)
 - Erik
 
 ## Brainstorm
